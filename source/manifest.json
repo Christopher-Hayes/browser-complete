@@ -17,10 +17,21 @@
     "activeTab",
     "storage",
     "http://*/*",
-    "https://*/*"
+    "https://*/*",
+    "clipboardRead"
   ],
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
+
+  "commands": {
+    "run-browser-complete": {
+      "suggested_key": {
+        "default": "Alt+Shift+L",
+        "linux": "Ctrl+Alt+L"
+      },
+      "description": "Run browser-complete"
+    }
+  },
 
   "__chrome|firefox__author": "abhijithvijayan",
   "__opera__developer": {
